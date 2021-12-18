@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+    color: #fff;
+    text-shadow: 0 0 2vh rgba(0,0,0,0.5);
+  }
+  
+  .clock {
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000;
+  }
+  
+  
+  #date {
+    font-size: 4vw;
+    
+  }
+  
+  
+  
+  
+  .time {
+    font-size: 10vw;
+    margin-bottom: 6vh;
+    margin-top: 5vh;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-top: 1.3rem;
+    padding-bottom: 2.3rem;
+  /*   border: 10px solid white; */
+    border-radius: 200px;
+  box-shadow: 0 2px 9px -1px rgba(0,0,0,0.3);
+    
+    background-color: rgba(255,255,255,0.1);
+  }
+  
+  
+  .color {
+    font-size: 3vw;
+  }
+  
+  
+  
+  
+  
